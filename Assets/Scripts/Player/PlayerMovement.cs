@@ -81,11 +81,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isRunning)
         {
-            audioSource.pitch = 1.3f;
+            audioSource.pitch = 1.6f;
         }
         else
         {
-            audioSource.pitch = 1f;
+            audioSource.pitch = 1.3f;
         }
         if (keyboardInput.magnitude > 0.1f && cc.isGrounded)
         {

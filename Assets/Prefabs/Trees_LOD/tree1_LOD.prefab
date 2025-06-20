@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2865.6187
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 291.46
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3090.081
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
@@ -78,10 +78,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1394975216274891398, guid: 769431c9143c3154590d32a6333654a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.57
+      objectReference: {fileID: 0}
     - target: {fileID: 5002869077353778881, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
       propertyPath: m_ScaleInLightmap
       value: 0.60126895
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865645977032733076, guid: 769431c9143c3154590d32a6333654a6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8966787361680467729, guid: 769431c9143c3154590d32a6333654a6,
         type: 3}
@@ -152,8 +162,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5, y: 100, z: 1.5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 40, z: 1.5}
+  m_Center: {x: 0, y: 20, z: 0}
 --- !u!23 &2864002580646478896 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8288150166119574028, guid: 769431c9143c3154590d32a6333654a6,

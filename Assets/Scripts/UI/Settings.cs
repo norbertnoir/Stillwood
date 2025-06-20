@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Settings : MonoBehaviour
 {
@@ -10,5 +11,20 @@ public class Settings : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (SceneManager.GetActiveScene().name == "Main Menu")
+            {
+                Application.Quit();
+            }
+            else
+            {
+                SceneManager.LoadScene("Main Menu");
+            }
+        }
     }
 }

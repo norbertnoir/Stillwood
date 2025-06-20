@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             isEscapeOpen = !isEscapeOpen;
-            LockCursor(isEscapeOpen);
+            //LockCursor(isEscapeOpen);
         }
 
         if (Input.GetKeyDown(KeyCode.Tab))

@@ -7,6 +7,8 @@ public class Item : MonoBehaviour, IInteraction
 {
     public string itemName;
     public string itemDescription;
+    public string animationName;
+
 
     string IInteraction.alertText => "Press E to take " + itemName;
 

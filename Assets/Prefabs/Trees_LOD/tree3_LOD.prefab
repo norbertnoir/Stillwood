@@ -78,6 +78,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -7235071841459891554, guid: 9d011299566b6864cb8482b94a0fbebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -6747759519818414918, guid: 9d011299566b6864cb8482b94a0fbebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.34
+      objectReference: {fileID: 0}
     - target: {fileID: -3232555367803593645, guid: 9d011299566b6864cb8482b94a0fbebc,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -97,6 +107,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723863281199533415, guid: 9d011299566b6864cb8482b94a0fbebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723863281199533415, guid: 9d011299566b6864cb8482b94a0fbebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.039989
       objectReference: {fileID: 0}
     - target: {fileID: 7061009275388539339, guid: 9d011299566b6864cb8482b94a0fbebc,
         type: 3}
@@ -187,8 +207,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 15, z: 1}
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!23 &9145946598376012459 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8392333071949895162, guid: 9d011299566b6864cb8482b94a0fbebc,

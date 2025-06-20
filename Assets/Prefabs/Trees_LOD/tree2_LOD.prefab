@@ -73,6 +73,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6747759519818414918, guid: 4cbd11ca33898f54ea78f736ff3c9180,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.28
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4cbd11ca33898f54ea78f736ff3c9180,
         type: 3}
       propertyPath: m_Name
@@ -87,6 +92,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832390685504696250, guid: 4cbd11ca33898f54ea78f736ff3c9180,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.37
       objectReference: {fileID: 0}
     - target: {fileID: 7061009275388539339, guid: 4cbd11ca33898f54ea78f736ff3c9180,
         type: 3}
@@ -175,8 +185,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 40, z: 1}
+  m_Center: {x: 0, y: 20, z: 0}
 --- !u!23 &6822785863479984786 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8392333071949895162, guid: 4cbd11ca33898f54ea78f736ff3c9180,
