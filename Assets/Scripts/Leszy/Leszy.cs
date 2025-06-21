@@ -12,9 +12,9 @@ public class Leszy : MonoBehaviour
     [SerializeField] float maxDistance = 100f;
     [SerializeField] float stayTime = 10f;
     [SerializeField] float stayTimeMax = 60f;
-    [SerializeField] float lookTimeTreshold = 2f;
-    [SerializeField] float delayMin = 0.2f;
-    [SerializeField] float delayMax = 0.5f;
+    [SerializeField] float lookTimeTreshold = 1f;
+    [SerializeField] float delayMin = 10f;
+    [SerializeField] float delayMax = 30f;
 
     [SerializeField] LayerMask groundLayerMask;
 
