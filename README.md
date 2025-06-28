@@ -6,6 +6,9 @@
 
 This project currently exists as a "walking simulator" in the most literal sense, but its core purpose is to establish a powerful, foundational atmosphere. The player is invited to explore a vast, hand-crafted mountain environment, from its damp, root-tangled foothills to its windswept, desolate peaks.
 
+![Gameplay screenshot from STILLWOOD](./Assets/Screenshots/Zrzut%20ekranu%202025-06-28%20135037.png)
+![Another screenshot from STILLWOOD](./Assets/Screenshots/Zrzut%20ekranu%202025-06-28%20135342.png)
+
 ### Key Features of the Current Build:
 
 *   **A World That Breathes (and Watches):** The centerpiece of the prototype is a large, multi-layered map designed for vertical exploration. Every path, landmark, and lighting setup is intentionally crafted to evoke feelings of awe, isolation, and creeping dread.
